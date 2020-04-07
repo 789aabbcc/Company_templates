@@ -1,0 +1,152 @@
+/* 产品 */
+
+.newstop {
+    position: relative;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+
+.newstop img {
+    width: 100%;
+    height: 240px;
+}
+
+.newstop .title {
+    position: absolute;
+    height: 32px;
+    font-size: 24px;
+    color: #fff;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    margin-top: -16px;
+    margin-left: -100px;
+}
+
+.wrapmask:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    background-color: rgb(71, 94, 222);
+    opacity: 0.6;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+  .tab-item {
+            display: none;
+        }
+
+        .tab-item.active {
+            display: block;
+        }
+
+
+/* 产品方案 */
+
+.product {
+    height: 955px;
+}
+
+.product .main {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.product .main .title {
+    margin-top: 50px;
+    height: 32px;
+    margin-bottom: 8px;
+}
+.product .main .title .left em{
+    margin-right: 36px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.product .main .title .right em{
+    margin-left: 36px;
+    font-size: 12px;
+    text-align: right;
+}
+
+.product .main .title  em:hover{
+    color: #475EDE;
+    cursor: pointer;
+}
+
+.product .main .title  em.active{
+    color: #475EDE;
+    cursor: pointer;
+}
+.product .main li {
+    float: left;
+    width: 384px;
+    height: 360px;
+    margin-right: 24px;
+    margin-top: 20px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.product .main .mr0 {
+    margin-right: 0;
+}
+
+.product .main li em {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.product .main li:hover em {
+    color: #475EDE;
+}
+
+.product .main li i {
+    display: block;
+    margin-left: 30px;
+    margin-top: 18px;
+    margin-right: 30px;
+    text-align: left;
+    font-size: 12px;
+    color: #999;
+}
+
+.product .main .more {
+    width: 120px;
+    height: 36px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 22px;
+    border: 1px solid  rgba(71, 94, 222, .5);
+    background-color: #fff;
+    text-align: center;
+    line-height: 36px;
+    font-size: 12px;
+    color: #475EDE;
+    cursor: pointer;
+}
+.pagechange nav{
+    position: absolute;
+    left: 50%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    margin-left: -245px;
+}
+
+.pagechange nav li a{
+    width: 40px;
+    height: 36px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.pagechange nav li a:hover{
+    background-color: #475EDE;
+    color: #fff;
+}

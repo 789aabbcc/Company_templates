@@ -1,0 +1,190 @@
+/* 联系我们 */
+
+.img img{
+    display: block;
+    width: 100%;
+    height: 1080px;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    margin-top: 72px;
+}
+
+.contactis .title{
+    position: relative;
+    z-index: 1;
+    height: 32px;
+    margin-top: 47px;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+.contactis .box{
+    position: relative;
+    z-index: 1;
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 49px;
+    border-radius: 4px;
+    background-color: #EAEAEA;
+    filter: opacity(80%);
+    padding-top:50px;
+}
+
+.contactis .box .top{
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    margin: 0 204px 0;
+}
+
+.contactis .box .top input{
+    position: relative;
+    z-index: 3;
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid #EAEAEA;
+}
+.contactis .box .name{
+    float: left;
+    margin-top: 56px;
+    margin-left: 204px;
+}
+.contactis .box .phone{
+    float: left;
+    margin-top: 56px;
+    margin-left: 76px;
+}
+
+
+
+.contactis .box .clearfix input{
+
+    font-size:1.4em;
+    width: 282px;
+    height: 44px;
+    border-radius:4px; 
+    border:1px solid #EAEAEA;
+    outline:0; 
+    text-align:left; 
+
+}
+.contactis .box .dsc{
+    margin-top: 56px;
+    margin-left: 176px;
+}
+
+.contactis .box .dsc input{
+
+    font-size:1.4em;
+    width:720px;
+    height: 100px;
+    border-radius:4px; 
+    border:1px solid #EAEAEA;
+    outline:0; 
+    text-align:left; 
+
+}
+
+.contactis .box .dsc i {
+    display: block;
+    text-align: top;
+    float: left;
+}
+
+.contactis .box .botton{
+    position: relative;
+    z-index: 3;
+    width: 200px;
+    height: 36px;
+    background-color: #FFF;
+    border-radius: 22px;
+    color: #475EDE;
+    text-align: center;
+    line-height: 36px;
+    margin: 0 auto;
+    margin-top: 52px;
+    cursor: pointer;
+    filter: opacity(1);
+}
+
+
+
+/* 联系我们 */
+
+.cons {
+    position: relative;
+    z-index: 1;
+    height: 322px;
+    padding-top: 44px;
+    background-color: #fff;
+    margin-top: 80px;
+}
+
+.contact {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.contact ul em {
+    display: block;
+    height: 21px;
+    font-size: 16px;
+    text-align: left;
+    color: #222;
+    margin-bottom: 80px;
+}
+
+.contact ul {
+    float: left;
+}
+
+.contact ul li {
+    display: block;
+    width: 360px;
+    height: 21px;
+    margin-bottom: 25px;
+    font-size: 13px;
+    text-align: left;
+    color: #888;
+}
+
+.contact ul li img {
+    float: right;
+    cursor: pointer;
+}
+
+.map {
+    float: left;
+    margin-top: 5px;
+    margin-left: 237px;
+    cursor: pointer;
+}
+
+/* 底部 */
+
+.bottom {
+    position: relative;
+    z-index: 1;
+    height: 174px;
+    background-color: #333;
+}
+
+.bottom .join {
+    height: 19px;
+    font-size: 14px;
+    padding-top: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, .6);
+    cursor: pointer;
+}
+
+.bottom .copy {
+    height: 16px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 118px;
+    color: rgba(255, 255, 255, .2);
+}

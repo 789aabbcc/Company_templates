@@ -1,0 +1,22 @@
+/* 案例详情 */
+
+.main{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.main .title {
+    height: 32px;
+    margin-top: 45px;
+    text-align: center;
+    font-size: 24px;
+    color: #222;
+}
+
+.main .content {
+    margin-top: 26px;
+    text-align: center;
+    line-height: 19px;
+    font-size: 14px;
+    color: #222;
+}

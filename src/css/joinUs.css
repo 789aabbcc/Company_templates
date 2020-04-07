@@ -1,0 +1,101 @@
+/* 加入我们 */
+
+
+
+.newstop{
+    position: relative;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+.newstop img {
+    width: 100%;
+    height: 240px;
+
+}
+.newstop .title {
+    position: absolute;
+    height: 32px;
+    font-size: 24px;
+    color: #fff;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    margin-top: -16px;
+    margin-left: -100px;
+}
+.wrapmask:after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    background-color: rgb(71, 94, 222);
+    opacity: 0.2;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+
+.joinus {
+    width: 1200px;
+    background-color: #fff;
+    padding-top: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+
+.introduction {
+    height: 256px;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: left;
+    color: #222;
+    border-bottom: 1px solid rgba(109, 136, 196, .2);
+}
+
+.introduction i {
+    color: #6D88C4;
+    cursor: pointer;
+    text-align: left;
+}
+
+.position .post{
+    height: 32px;
+    margin-top: 25px;
+    font-size: 24px;
+    color: #222;
+    text-align: left;
+}
+
+.position .duty,.demand {
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 28px;
+    color: #222;
+    text-align: left;
+}
+
+.position i {
+    color: #6D88C4;
+    cursor: pointer;
+}
+
+.position .demand {
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(109, 136, 196, .2);
+}
+
+.bottom {
+    font-size: 13px;
+    color: #999;
+    text-align: center;
+    margin-top: 300px;
+}
+
+.bottom i{
+    color: #6D88C4;
+    cursor: pointer;
+}

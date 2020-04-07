@@ -1,0 +1,110 @@
+
+.prodetails {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 28px;
+}
+
+.prodetails .proleft {
+    float: left;
+    width: 792px;
+    padding:0 50px 0;
+    background-color: #fff;
+}
+.prodetails .proleft .title{
+    width: 692px;
+    height: 78px;
+    border-bottom: 1px solid rgba(112, 112, 112, .1);
+    line-height: 78px;
+    text-align: center;
+    color: #222;
+    font-size: 24px;
+}
+.prodetails .proleft img{
+    width: 692px;
+    height: 390px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.prodetails .proleft .dsc{
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 200px;
+}
+.prodetails .proleft .botton{
+    width: 200px;
+    height: 36px;
+    border-radius: 22px;
+    border: 1px solid #475EDE;
+    color: #475EDE;
+    text-align: center;
+    line-height: 36px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+.prodetails .proright {
+    float: right;
+    width: 384px;
+}
+
+.prodetails .proright .address{
+    font-size: 12px;
+    color: #999;
+    cursor: pointer;
+}
+
+.prodetails .proright li{
+    margin-top: 30px;
+    height: 360px;
+    background-color: #fff;
+}
+
+.prodetails .proright img{
+    width: 384px;
+    height: 216px;  
+}
+
+.prodetails .proright li i{
+    display: block;
+    height: 21px;
+    margin-top: 21px;
+    margin-left: 30px;
+    font-size: 16px;
+    color: #222;
+}
+
+.prodetails .proright li em{
+     display: block;
+    margin: 15px 30px 0;  
+    font-size: 12px;
+    color: #999;
+}
+
+
+/* 底部 */
+
+.bottom {
+    height: 174px;
+    background-color: #333;
+    margin-top: 200px;
+}
+
+.bottom .join {
+    height: 19px;
+    font-size: 14px;
+    padding-top: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, .6);
+    cursor: pointer;
+}
+
+.bottom .copy {
+    height: 16px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 118px;
+    color: rgba(255, 255, 255, .2);
+}

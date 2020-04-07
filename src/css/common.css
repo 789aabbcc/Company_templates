@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #F5F6FA;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+i {
+    font-style: normal;
+}
+
+a {
+    text-decoration: none!important;
+    color: black;
+}
+
+
+/* 清除默认样式 start */
+
+blockquote,
+body,
+button,
+dd,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+input,
+legend,
+li,
+ol,
+p,
+pre,
+td,
+textarea,
+th,
+ul {
+    margin: 0;
+    padding: 0
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    font: 14px/1.5 tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+}
+
+address,
+cite,
+dfn,
+em,
+var,
+i {
+    font-style: normal;
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: courier new, courier, monospace;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+u {
+    text-decoration: none;
+}
+
+b {
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+a:hover {
+    color: #C64B4B;
+}
+
+fieldset,
+img {
+    border: 0;
+}
+
+img {
+    vertical-align: top;
+}
+
+button {
+    border-radius: 0;
+    outline: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+
+/* 清除默认样式 end */
+
+.main {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.fr {
+    float: right!important
+}
+
+.fl {
+    float: left!important
+}
+
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+.clearfix {
+    *zoom: 1
+}
+
+
+/* header */
+
+.pageheader {
+    background-color: #fff;
+}
+
+.header {
+    height: 72px;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+.header .logo {
+    line-height: 72px;
+    background: url("../images/logo.png") center left no-repeat;
+    background-size: 24px;
+}
+
+.logo span {
+    margin-left: 32px;
+    font-size: 16px;
+    color: #475EDE;
+}
+
+.menu {
+    line-height: 72px;
+    margin-left: 290px;
+    text-align: center;
+}
+
+.menu li {
+    cursor: pointer;
+    padding: 0 27px;
+    font-size: 14px;
+    color: #999999;
+}
+
+.menu i {
+    display: none;
+    position: relative;
+    bottom: 22px;
+    margin: 0 auto;
+    border-bottom: 1px solid #475EDE;
+}
+
+.menu li:hover {
+    color: #475EDE;
+}
+
+.menu li:hover i {
+    display: block;
+}
+
+.menu li.active {
+    color: #475EDE;
+}
+
+.menu li.active i {
+    display: block;
+}
+
+.contactus {
+    width: 94px;
+    height: 30px;
+    margin-top: 22px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #475EDE;
+    border-radius: 15px;
+    color: #475EDE;
+    cursor: pointer;
+}

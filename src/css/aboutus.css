@@ -1,0 +1,59 @@
+/* 关于我们 */
+
+
+
+.newstop{
+    position: relative;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+.newstop img {
+    width: 100%;
+    height: 240px;
+
+}
+.newstop .title {
+    position: absolute;
+    height: 32px;
+    font-size: 24px;
+    color: #fff;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    margin-top: -16px;
+    margin-left: -100px;
+}
+.wrapmask:after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    background-color: rgb(71, 94, 222);
+    opacity: 0.1;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.about {
+    width: 792px;
+    margin: 0 auto;
+}
+
+.about .title {
+    height: 27px;
+    text-align: center;
+    margin-top: 46px;
+    font-size: 20px;
+    color: #222;
+}
+
+.about i{
+    display: block;
+    font-size: 14px;
+    line-height: 19px;
+    color: #222;
+    margin-top: 15px;
+    text-align: center;
+}
